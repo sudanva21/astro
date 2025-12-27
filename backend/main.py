@@ -94,9 +94,10 @@ def home():
 def health_check():
     return {"status": "healthy", "service": "astrology-backend"}
 
-horoscope_frontend_dist = os.path.join(os.path.dirname(__file__), "calculation", "calculation-main", "frontend", "dist")
-if os.path.exists(horoscope_frontend_dist):
-    app.mount("/horoscope", StaticFiles(directory=horoscope_frontend_dist, html=True), name="horoscope-frontend")
-    logger.info(f"Serving horoscope frontend from {horoscope_frontend_dist}")
-else:
-    logger.warning(f"Horoscope frontend dist not found at {horoscope_frontend_dist}. Build it first with: cd backend/calculation/calculation-main/frontend && npm run build")
+# horoscope_frontend_dist = os.path.join(os.path.dirname(__file__), "calculation", "calculation-main", "frontend", "dist")
+# if os.path.exists(horoscope_frontend_dist):
+#     app.mount("/horoscope", StaticFiles(directory=horoscope_frontend_dist, html=True), name="horoscope-frontend")
+#     logger.info(f"Serving horoscope frontend from {horoscope_frontend_dist}")
+# else:
+#     # In production (Render/Vercel split), we don't serve frontend from here.
+#     pass # logger.warning(f"Horoscope frontend dist not found at {horoscope_frontend_dist}. Build it first with: cd backend/calculation/calculation-main/frontend && npm run build")
