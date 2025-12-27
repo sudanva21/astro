@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+.DS_Store
+logs/
+tmp/
+dist/
+build/
+.vscode/
+.idea/
+*.egg-info/
+calculation/calculation-main/artifacts/
+agent2/logs/

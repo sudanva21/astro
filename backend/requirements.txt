@@ -1,0 +1,45 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic[email]
+pydantic-settings
+email-validator
+numpy
+pandas
+setuptools
+requests
+python-dateutil
+pytz
+
+# Calculation Engine Dependencies
+geocoder
+geopy
+img2pdf
+Pillow
+pyephem
+pyswisseph
+timezonefinder
+cachetools
+
+# Database & Storage
+motor
+pymongo
+certifi
+
+# Authentication & Security
+passlib[bcrypt]
+bcrypt==4.2.1
+python-jose[cryptography]
+python-multipart
+python-dotenv
+google-auth
+
+# HTTP Client
+httpx
+
+# AI Orchestrator Dependencies (Deva Agent)
+autogen-agentchat
+autogen-core
+autogen-ext[openai]
+openai
+google-genai

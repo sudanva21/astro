@@ -1,0 +1,253 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\sudanva\\Desktop\\start\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [21572] using WatchFiles
+INFO:main:Serving horoscope frontend from c:\Users\sudanva\Desktop\start\backend\calculation\calculation-main\frontend\dist
+INFO:     Started server process [9100]
+INFO:     Waiting for application startup.
+INFO:root:Connecting to MongoDB...
+INFO:mongo:Connected to MongoDB at mongodb+srv://veereshhindiholi8337:zGAv66Jck7oQcgnU@cluster0.4dn4v2o.mongodb.net/?appName=Cluster0 (DB: unified_backend)
+INFO:mongo:All collections and indexes initialized successfully
+INFO:root:Preloading world city index...
+INFO:root:World city index loaded successfully.
+INFO:     Application startup complete.
+hora c:\Users\sudanva\Desktop added to system path ['c:\\Users\\sudanva\\Desktop\\start\\backend\\calculation\\calculation-main\\src', 'c:\\Users\\sudanva\\Desktop\\start\\backend\\calculation\\calculation-main\\src', 'c:\\Users\\sudanva\\Desktop\\start\\backend', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin', 'c:\\Users\\sudanva\\Desktop']
+c:\Users\sudanva added to system path ['c:\\Users\\sudanva\\Desktop\\start\\backend\\calculation\\calculation-main\\src', 'c:\\Users\\sudanva\\Desktop\\start\\backend\\calculation\\calculation-main\\src', 'c:\\Users\\sudanva\\Desktop\\start\\backend', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib', 'C:\\Users\\sudanva\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin', 'c:\\Users\\sudanva\\Desktop', 'c:\\Users\\sudanva']
+INFO:     127.0.0.1:62607 - "OPTIONS /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54618 - "OPTIONS /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62607 - "OPTIONS /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "OPTIONS /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51124 - "OPTIONS /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "OPTIONS /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54618 - "GET /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56293 - "GET /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51124 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53958 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49667 - "OPTIONS /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:deva_routes:Feedback submitted for question 694a30583879483b12a89718 by rrr.2014.8055@gmail.com
+INFO:     127.0.0.1:49667 - "POST /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49667 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:deva_routes:Feedback submitted for question 694a30323879483b12a89717 by rrr.2014.8055@gmail.com
+INFO:     127.0.0.1:51248 - "POST /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51248 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51248 - "OPTIONS /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:deva_routes:Birth details saved for user: rrr.2014.8055@gmail.com
+INFO:     127.0.0.1:51248 - "POST /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55019 - "OPTIONS /api/v1/deva/chat HTTP/1.1" 200 OK
+INFO:deva_routes:[DEVA] Chat request from user: rrr.2014.8055@gmail.com, question: Tell me about my Finance...
+INFO:deva_routes:[DEVA] No request_id provided, fetching most recent horoscope for rrr.2014.8055@gmail.com
+WARNING:deva_routes:[DEVA] No horoscopes found for user rrr.2014.8055@gmail.com
+INFO:deva_routes:[DEVA] User has birth details but no horoscope, providing basic analysis
+INFO:deva_routes:[GEMINI-DIRECT] Running Gemini-powered analysis for user: rrr.2014.8055@gmail.com
+INFO:deva_routes:[GEMINI-DIRECT] Calling Gemini API directly...
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+ERROR:deva_routes:[GEMINI-DIRECT] Gemini API call failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+Traceback (most recent call last):
+  File "c:\Users\sudanva\Desktop\start\backend\deva_routes.py", line 306, in run_basic_astrology_analysis
+    response = client.models.generate_content(
+        model=model_name,
+    ...<4 lines>...
+        )
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\models.py", line 5203, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\models.py", line 3985, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1388, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1224, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1201, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+INFO:deva_routes:[DEVA] Basic analysis response generated, length: 330
+INFO:deva_routes:[STORE] Attempting to store conversation for user: rrr.2014.8055@gmail.com
+INFO:deva_routes:[STORE] Inserting document into deva_conversations collection
+INFO:deva_routes:[STORE] Conversation stored successfully with ID: 694a394fa3b1819839a75463
+INFO:deva_routes:[DEVA] Conversation stored with ID: 694a394fa3b1819839a75463
+INFO:     127.0.0.1:55019 - "POST /api/v1/deva/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55019 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60954 - "OPTIONS /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63138 - "OPTIONS /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60954 - "OPTIONS /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60954 - "GET /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63138 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:deva_routes:[DEVA] Chat request from user: rrr.2014.8055@gmail.com, question: Tell me about my finance...
+INFO:deva_routes:[DEVA] No request_id provided, fetching most recent horoscope for rrr.2014.8055@gmail.com
+WARNING:deva_routes:[DEVA] No horoscopes found for user rrr.2014.8055@gmail.com
+INFO:deva_routes:[DEVA] User has birth details but no horoscope, providing basic analysis
+INFO:deva_routes:[GEMINI-DIRECT] Running Gemini-powered analysis for user: rrr.2014.8055@gmail.com
+INFO:deva_routes:[GEMINI-DIRECT] Calling Gemini API directly...
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+ERROR:deva_routes:[GEMINI-DIRECT] Gemini API call failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+Traceback (most recent call last):
+  File "c:\Users\sudanva\Desktop\start\backend\deva_routes.py", line 306, in run_basic_astrology_analysis
+    response = client.models.generate_content(
+        model=model_name,
+    ...<4 lines>...
+        )
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\models.py", line 5203, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\models.py", line 3985, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1388, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1224, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1201, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+INFO:deva_routes:[DEVA] Basic analysis response generated, length: 330
+INFO:deva_routes:[STORE] Attempting to store conversation for user: rrr.2014.8055@gmail.com
+INFO:deva_routes:[STORE] Inserting document into deva_conversations collection
+INFO:deva_routes:[STORE] Conversation stored successfully with ID: 694a3ae7a3b1819839a75464
+INFO:deva_routes:[DEVA] Conversation stored with ID: 694a3ae7a3b1819839a75464
+INFO:     127.0.0.1:53712 - "POST /api/v1/deva/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53712 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:deva_routes:Feedback submitted for question 694a3ae7a3b1819839a75464 by rrr.2014.8055@gmail.com
+INFO:     127.0.0.1:53311 - "POST /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53311 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:deva_routes:Feedback submitted for question 694a394fa3b1819839a75463 by rrr.2014.8055@gmail.com
+INFO:     127.0.0.1:63534 - "POST /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63534 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'test_gemini_api_key.py'. Reloading...
+INFO:     127.0.0.1:62072 - "OPTIONS /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "OPTIONS /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "OPTIONS /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55730 - "GET /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62072 - "GET /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63915 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54731 - "OPTIONS /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55885 - "OPTIONS /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54731 - "OPTIONS /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54731 - "GET /api/v1/deva/horoscope/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64819 - "GET /api/v1/deva/birth-details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55885 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55885 - "OPTIONS /api/v1/deva/chat HTTP/1.1" 200 OK
+INFO:deva_routes:[DEVA] Chat request from user: rrr.2014.8055@gmail.com, question: Tell me about my finance...
+INFO:deva_routes:[DEVA] No request_id provided, fetching most recent horoscope for rrr.2014.8055@gmail.com
+WARNING:deva_routes:[DEVA] No horoscopes found for user rrr.2014.8055@gmail.com
+INFO:deva_routes:[DEVA] User has birth details but no horoscope, providing basic analysis
+INFO:deva_routes:[GEMINI-DIRECT] Running Gemini-powered analysis for user: rrr.2014.8055@gmail.com
+INFO:deva_routes:[GEMINI-DIRECT] Calling Gemini API directly...
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 400 Bad Request"
+ERROR:deva_routes:[GEMINI-DIRECT] Gemini API call failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+Traceback (most recent call last):
+  File "c:\Users\sudanva\Desktop\start\backend\deva_routes.py", line 306, in run_basic_astrology_analysis
+    response = client.models.generate_content(
+        model=model_name,
+    ...<4 lines>...
+        )
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\models.py", line 5203, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\models.py", line 3985, in _generate_content
+    response = self._api_client.request(
+        'post', path, request_dict, http_options
+    )
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1388, in request
+    response = self._request(http_request, http_options, stream=False)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1224, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\tenacity\__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\_api_client.py", line 1201, in _request_once
+    errors.APIError.raise_for_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\errors.py", line 121, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sudanva\AppData\Local\Programs\Python\Python313\Lib\site-packages\google\genai\errors.py", line 146, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Please renew the API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key expired. Please renew the API key.'}]}}
+INFO:deva_routes:[DEVA] Basic analysis response generated, length: 330
+INFO:deva_routes:[STORE] Attempting to store conversation for user: rrr.2014.8055@gmail.com
+INFO:deva_routes:[STORE] Inserting document into deva_conversations collection
+INFO:deva_routes:[STORE] Conversation stored successfully with ID: 694a3e6aa3b1819839a75467
+INFO:deva_routes:[DEVA] Conversation stored with ID: 694a3e6aa3b1819839a75467
+INFO:     127.0.0.1:55885 - "POST /api/v1/deva/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55885 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "OPTIONS /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:deva_routes:Feedback submitted for question 694a3e6aa3b1819839a75467 by rrr.2014.8055@gmail.com
+INFO:     127.0.0.1:49675 - "POST /api/v1/deva/question-feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49675 - "GET /api/v1/deva/question-status HTTP/1.1" 200 OK
